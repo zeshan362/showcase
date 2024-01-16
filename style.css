@@ -1,0 +1,140 @@
+body{
+    max-width: 1250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 0;
+    margin: 0;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* top naviation */
+.navigation { 
+    display: flex;
+    justify-content:flex-start;
+    gap: 15px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    color:lightslategray;
+    font-size: 18px;
+}  
+
+.navigation a {
+    color:lightslategrey;
+    font-style: normal;
+}
+
+.navigation a:hover {
+    color:black;
+}
+/* end top naviation */
+
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+    font-size: 19.2px;
+    align-items: center;
+    background-color: #f6f9faf2
+}
+
+.main-navigation .logo {
+    width: 220px;
+    height:35px;
+    padding: 20px;
+    display: flexbox;
+    background-color:#249991;
+}
+
+.main-navigation .nav-buttons {
+    display:  flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.hero-section {
+    display: flex;
+    gap: 5px;
+}
+
+.hero-section .hero-small-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+.hero-section .small-news-img {
+    width: 339px;
+    height: 201px;
+}
+
+.hero-section .news-wrapper {
+    position: relative;
+}
+
+.hero-section .news-text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+}
+
+@media (max-width: 800px) {
+    body {
+        background-color: red;
+    }
+}
+
+.heading-update{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px; 
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 7px 0 7px 14px;
+    border-left: 8px solid;
+}
+.text-primery {
+   color: #249991;
+}
+.img-update .taxt-info{
+    font-weight: 700;
+}
+.img-update {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;    
+}
+
+/* new button */
+button{
+    padding: 10px 40px;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    background-color: #249991;
+    font-weight: 400;
+    font-size: 1.02em;
+    position: relative;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.news-update-r {
+    color: blue;
+    font-weight: 900;
+    font-size: 17.6px;
+    line-height: 24px; 
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 7px 0 7px 94px;
+    border-left: 8px solid;
+    background-color: black;
+}
+.container .new-data-news {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+}
